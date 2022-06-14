@@ -1,12 +1,12 @@
-import "../styles/globals.css";
+import { Box } from "@mui/system";
 import type { AppProps } from "next/app";
 import Layout from "../components/Layout";
-import { Box } from "@mui/system";
+import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Layout>
-      <Box sx={{ minHeight: "calc(100vh - 64px - 132px)" }}>
+      <Box sx={{ minHeight: "calc(100vh - 64px)" }}>
         <Component {...pageProps} />
       </Box>
     </Layout>
