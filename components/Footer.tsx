@@ -1,11 +1,11 @@
+import CopyrightIcon from "@mui/icons-material/Copyright";
 import { Icon, Typography } from "@mui/material";
 import { Box, Container } from "@mui/system";
-import CopyrightIcon from "@mui/icons-material/Copyright";
 import React from "react";
 
 const Footer = () => {
   return (
-    <Box py={3} component="footer" sx={{ background: "red" }}>
+    <Box bgcolor="lightpink" py={3} component="footer">
       <Container maxWidth="xl" sx={{ textAlign: "center" }}>
         <Typography
           sx={{
